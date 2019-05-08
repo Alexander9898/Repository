@@ -1,0 +1,45 @@
+#tabs .tab{
+	display: inline-block;
+	padding: 5px 10px;
+	cursor: pointer;
+	position: relative;
+	z-index: 5;
+	font-size: 30px;
+	font-weight: 300;
+	background: -webkit-radial-gradient(left,rgb(255, 208, 0) , rgb(137, 137, 236))
+
+
+}
+
+#tabs .whiteborder{
+	border: 3px solid orangered;
+	border-bottom: 4px solid black;
+	border-radius: 5px;
+
+}
+
+
+#tabs .tabContent{
+	width: 600px;
+	height: 200px;
+	border: 3px solid blue;
+	position: relative;
+	top: -1px;
+	z-index: 1;
+	padding: 10px;
+	border-radius:  7px;
+	background: silver;
+	background: -webkit-linear-gradient(top, silver ,rgb(219, 116, 173),rgb(247, 58, 58) );
+	font-size: 25px; 
+	text-align: center
+	
+}
+
+.hide{
+	display: none;
+}
+
+
+.show{
+	display: block;
+}

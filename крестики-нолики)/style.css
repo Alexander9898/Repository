@@ -1,0 +1,31 @@
+#game 
+{border: 1px solid blue;
+background-color: brown;
+width: 450px;
+height: 450px;
+position:relative;
+left: 35%;
+
+
+}
+.block {
+	
+width: 150px;
+height: 150px; 
+float: left;
+border: 2px solid black;
+box-sizing: border-box;
+font-size: 80px;
+text-align: center
+}
+body {
+	background: -webkit-linear-gradient(top left ,rgb(144, 224, 235), rgb(243, 177, 177))
+}
+
+.welcome{
+	font-size: 40px;
+	
+
+text-align: center;
+font-style: oblique
+}

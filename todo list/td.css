@@ -1,9 +1,13 @@
-div{
+body{background:-webkit-linear-gradient(top left, pink , aqua)
+	;}
+
+.wrapper{
 	width: 800px;
 	height: 400px;
 	border: 2px solid black;
 	background: rgb(255, 209, 56);
-	
+	position: relative;
+left: 22%;	
 }
 
 input{
@@ -22,7 +26,8 @@ button {
 	background: rgb(207, 30, 6);
 	position: relative;
 	left: 50px;
-	
+	border: 2px solid rgb(38, 0, 255);
+	border-radius: 5px;
 }
 
 ul {
@@ -44,4 +49,8 @@ li.checked{
 
 li:hover{
 	background: yellow;
+}
+.welcome{
+	font-size: 40px;
+	text-align: center
 }

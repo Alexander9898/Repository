@@ -1,0 +1,30 @@
+.menu{
+	
+	border: 1px solid black;
+	border-radius: 5px;
+	display: inline-block;
+	position: relative;
+	padding: 5px;
+	margin: 5px;
+	background-color: coral;
+	text-align: center;
+	font-size: 25px;
+
+}
+
+
+.submenu{
+	padding: 2px;
+	margin: 5px;
+	border: 1px solid blue;
+	background: yellow;
+	position: absolute;
+}
+
+.menu:hover{
+	background:rgb(170, 4, 4);
+}
+
+.submenu div{
+	
+}
